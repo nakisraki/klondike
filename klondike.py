@@ -152,7 +152,7 @@ class SolitareGameWindow(tk.Tk):
         self.minsize(1300, 800)
         solitaire_frame = SolitareGameFrame(self)
         solitaire_frame.pack(expand=True, fill="both")
-        self.iconbitmap(os.path.join("assets", "icon.ico"))
+        #self.iconbitmap(os.path.join("assets", "icon.ico"))
 
 
 class SolitareGameFrame(tk.Frame):
